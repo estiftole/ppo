@@ -1,0 +1,12 @@
+[project]
+name = "ppo-in-pytorch"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "gymnasium[accept-rom-license,atari,other]>=1.4.0",
+    "matplotlib>=3.11.2",
+    "stable-baselines3>=2.9.2",
+    "torch>=2.15.0",
+]
